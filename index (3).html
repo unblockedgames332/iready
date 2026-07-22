@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download</title>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  .download-btn {
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: #2563eb;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.15s ease;
+  }
+
+  .download-btn:hover {
+    background: #1d4ed8;
+  }
+</style>
+</head>
+<body>
+
+  <!--
+    IMPORTANT: change "yourfile.zip" below to the exact filename
+    of the other file sitting in this same folder.
+  -->
+  <a class="download-btn" href="yourfile.zip" download>Download</a>
+
+</body>
+</html>
